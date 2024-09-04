@@ -1,8 +1,8 @@
-#Tue Sep 03 16:07:41 EAT 2024
-base.0=/Users/diannejoseph/todo/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/diannejoseph/todo/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/diannejoseph/todo/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.3=/Users/diannejoseph/todo/build/app/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+#Wed Sep 04 14:41:40 EAT 2024
+base.0=/Users/diannejoseph/PROJECTS/ToDo/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/diannejoseph/PROJECTS/ToDo/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/diannejoseph/PROJECTS/ToDo/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.3=/Users/diannejoseph/PROJECTS/ToDo/build/app/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=1/classes.dex

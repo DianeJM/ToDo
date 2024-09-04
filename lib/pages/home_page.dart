@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:todo/pages/add_task.dart';
 import 'package:todo/widgets/todo_item.dart';
 
 class HomePage extends StatelessWidget {
@@ -16,20 +18,23 @@ class HomePage extends StatelessWidget {
               },
               child: const Icon(Icons.menu));
         }),
-        actions: const [
-          Icon(Icons.search),
-          SizedBox(
+        actions: [
+          const Icon(Icons.search),
+          const SizedBox(
             width: 10,
           ),
-          Icon(Icons.notifications),
-          SizedBox(
+          GestureDetector(
+              onTap: () {
+                Get.to(const AddTask());
+              },
+              child: const Icon(Icons.add)),
+          const SizedBox(
             width: 15,
           )
         ],
         title: const Text(
           "ToDo App",
-          style: TextStyle(
-              fontSize: 18, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.lightBlue[200],
       ),
